@@ -11192,5 +11192,14 @@ abbr.required {
 
 .feature_sec .img-fw{ height: 300px; object-fit: cover; overflow: hidden; }
 
-.promo_sec_img{ height: 374px; overflow: hidden; object-fit: cover; }
+.promo_sec_img{ height: 374px; overflow: hidden; object-fit: cover;  }
 .promo_sec_img img{ width: 100%; height: 100%; display: block; }
+
+
+.banner_sec .tp-parallax-wrap .btn { 
+  position: relative;
+  left: -86px;  
+}
+ 
+ 
+.counters .statistic span, .counters .statistic h5{ color: #000 !important; }
