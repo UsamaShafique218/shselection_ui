@@ -11203,3 +11203,33 @@ abbr.required {
  
  
 .counters .statistic span, .counters .statistic h5{ color: #000 !important; }
+
+
+ 
+.logo_text {  
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  color: #111;                           
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  position: relative; 
+  -webkit-text-stroke: 1px #23abc4;   
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.15);  
+}
+
+/* Highlight "SH" */
+.logo_text .logo-highlight {  
+  font-weight: 700;
+  color: #23abc4;
+  -webkit-text-stroke: 1.5px #111;  
+}
+
+/* Hover effect */
+.logo_text:hover {
+  color: #ff6b6b; 
+  transform: scale(1.1);
+  text-shadow: 0 0 10px #23abc4, 0 0 20px #ff6b6b;  
+}
