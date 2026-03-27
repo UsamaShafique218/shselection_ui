@@ -49,7 +49,7 @@
 }
 
 .section-wrap {
-  padding: 140px 0;
+  padding: 100px 0;
   overflow: hidden;
   background-attachment: fixed;
   background-size: cover;
@@ -11197,7 +11197,7 @@ abbr.required {
 
  
  
-.counters .statistic span, .counters .statistic h5{ color: #000 !important; }
+/* .counters .statistic span, .counters .statistic h5{ color: #000 !important; } */
 
 
 .home_banner_sec .rev_slider li .slotholder{ filter: none !important; }
@@ -11227,3 +11227,26 @@ abbr.required {
   filter: grayscale(0%);
   transform: scale(1.05);
 }
+
+
+
+.counters.bg-color {
+    background-color: #1abcb0 !important;
+}
+
+.services_sec .work-container{ height: 300px; }
+.services_sec .work-img>a{ height: 300px; }
+.services_sec .work-img img{ height: 100%; }
+.services_sec .work-description h3{ font-size: 24px; font-weight: 700; }
+
+
+
+
+
+
+
+
+/*  */
+
+
+
