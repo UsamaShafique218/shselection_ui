@@ -8449,12 +8449,10 @@ table th {
   background-color: transparent !important;
 }
 
-.footer-logo {
-  padding-top: 50px;
-}
+ 
 
 .footer-logo img {
-  max-height: 58px;
+  max-height: 44px;
 }
 
 .bottom-footer-links li {
@@ -11518,3 +11516,15 @@ abbr.required {
 .services-list{ list-style-type: disc; padding-left: 40px; }
 .g-3{ gap: 20px; }
 /*  */
+
+.logo, .logo-dark{ max-height: 32px; }
+
+
+@media only screen and (min-width:0px) and (max-width:767px){
+   
+    body { -webkit-text-size-adjust:none; -webkit-overflow-scrolling: touch; overflow-x: hidden; }
+ 
+    .custome_banner.press_banner{ min-height: 400px; }  
+ 
+   
+}
