@@ -11329,7 +11329,7 @@ abbr.required {
 
 
 .custome_banner.history_banner {
-  background-image: url(../img/presse_banner_bg.jpeg);
+  background-image: url(../img/banner_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11685,6 +11685,8 @@ abbr.required {
   width: 100%;
   border-radius: 15px;
   transition: transform 0.4s ease;
+      height: 100%;
+    min-height: 429px;
 }
 
 .vip-exp-image:hover img {
