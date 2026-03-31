@@ -11802,4 +11802,12 @@ abbr.required {
   .vip-tagline {
     font-size: 20px;
   }
+  .section-wrap{ padding: 60px 0px; }
+  .section-title{ margin-bottom: 20px; }
+  
 }
+
+.mobile-search{ display: none; }
+.about_content .row.g-4 .col-md-4{ padding-bottom: 30px; }
+ 
+.mt-3{ margin-top: 30px; }
