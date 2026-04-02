@@ -11271,7 +11271,7 @@ abbr.required {
 
 
 .counters.bg-color {
-  background-color: #1abcb0 !important;
+  background-color: #142960 !important;
 }
 
 .services_sec .work-container {
@@ -11834,3 +11834,6 @@ abbr.required {
  
 
 .retail_text_wrapper{ padding-top: 20px; }
+
+
+.automonous_retail_wrapper .flickity-viewport{ height: 600px !important; }
