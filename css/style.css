@@ -8096,7 +8096,7 @@ table th {
 
 .alert-info {
   background-color: #e9f4f6;
-  color: #23abc4;
+  color: #142960;
 }
 
 .alert-warning {
@@ -11434,9 +11434,9 @@ abbr.required {
 }
 
 .learn_more:hover {
-  background: #23abc4;
+  background: #142960;
   color: #fff;
-  border-color: #23abc4;
+  border-color: #142960;
 }
 
 /* Content */
@@ -11597,7 +11597,7 @@ abbr.required {
 
 
 .insight-badge {
-  background: #23abc4;
+  background: #142960;
   color: #fff;
   font-weight: 600;
   font-size: 0.8rem;
@@ -11613,7 +11613,7 @@ abbr.required {
 }
 
 .badge-custom {
-  background: #23abc4;
+  background: #142960;
   padding: 6px 15px;
   border-radius: 20px;
   color: #fff;
@@ -11744,7 +11744,7 @@ abbr.required {
 }
 
 .vip-brands span:hover {
-  background: #23abc4;
+  background: #142960;
   color: #fff;
   transform: translateY(-3px);
 }
@@ -11786,7 +11786,7 @@ abbr.required {
   display: block;
   width: 70px;
   height: 3px;
-  background: #23abc4;
+  background: #142960;
   margin: 12px auto 0;
   border-radius: 5px;
 }
