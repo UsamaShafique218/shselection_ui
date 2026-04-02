@@ -11827,5 +11827,10 @@ abbr.required {
   background-size: cover;
 }
 
+.custome_banner.automonous_retail_banner::before {
+  display: none;
+}
+
+ 
 
 .retail_text_wrapper{ padding-top: 20px; }
