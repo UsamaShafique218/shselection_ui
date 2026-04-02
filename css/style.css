@@ -11820,3 +11820,12 @@ abbr.required {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.custome_banner.automonous_retail_banner {
+  background-image: url(../img/autonomous_img1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.retail_text_wrapper{ padding-top: 20px; }
