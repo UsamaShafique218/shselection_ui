@@ -11811,3 +11811,12 @@ abbr.required {
 .about_content .row.g-4 .col-md-4{ padding-bottom: 30px; }
  
 .mt-3{ margin-top: 30px; }
+
+.align-items-center{ align-items: center !important; }
+
+.custome_banner.beekeeping_banner {
+  background-image: url(../img/beekeeping_img4.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
