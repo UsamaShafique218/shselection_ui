@@ -11561,7 +11561,7 @@ abbr.required {
 
 .logo,
 .logo-dark {
-  max-height: 32px;
+  max-height: 38px;
 }
 
 
@@ -11837,3 +11837,6 @@ abbr.required {
 
 
 .automonous_retail_wrapper .flickity-viewport{ height: 600px !important; }
+
+
+.history_content_wrapper .card_with_img{ box-shadow: none; }

@@ -123,7 +123,7 @@
                                             <a href="autonomous_retail.html">Autonomous Retail</a>
                                         </li>
                                         <li>
-                                            <a href="#">Beekeeping</a>
+                                            <a href="beekeeping.html">Beekeeping</a>
                                         </li>
                                         <li class="active">
                                             <a href="history.html">History</a>
@@ -168,9 +168,9 @@
             </nav> <!-- end navbar -->
         </header>
 
-        <div class="content-wrapper oh">
+        <div class="content-wrapper oh history_content_wrapper">
 
-            <section class="custome_banner history_banner">
+            <section class="custome_banner history_banner d-none">
                 <div class="container">
                     <div class="custome_banner_inner">
                         <div class="custome_banner_content animated-queue">
@@ -182,6 +182,18 @@
                 </div>
             </section>
 
+            <section class="section-wrap nopadding">
+                <div class="container-fluid nopadding">
+                    <div id="photography-slider" class="flickity-slider-wrap" data-autoplay="false" data-arrows="true"
+                        data-slidedots="false">
+                        <img src="img/history_img1.jpeg" alt="#">
+                        <img src="img/history_img2.jpg" alt="#">
+                        <img src="img/history_img3.png" alt="#">
+                    </div> <!-- end slider -->
+
+                </div>
+            </section> <!-- end portfolio slider -->
+
             <section class="section-wrap vip-section">
                 <div class="container">
                     <div class="row align-items-center">
@@ -189,7 +201,7 @@
                         <!-- Left Content -->
                         <div class="col-lg-6">
                             <div class="vip-content">
-                                <span class="badge-custom">Company Profile</span>
+                                <!-- <span class="badge-custom">Company Profile</span> -->
 
                                 <h2 class="vip-title">
                                     SHSelection – International Advisory & Brand Expertise
@@ -235,9 +247,7 @@
                             <div class="vip-image">
                                 <!-- <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
                                     alt="Business Consulting"> -->
-                                    <img src="img/home_banner_bg3.jpg"
-                                    alt="Business Consulting">
-                                    
+                                <img src="img/history_img2.jpg" alt="Business Consulting">
                             </div>
                         </div>
 
@@ -253,11 +263,12 @@
                             <!-- <p>articles</p> -->
                         </div>
 
-                        <div class="articles_detail">
-                            <div class="container">
-                                <div class="row">
-                                    <!-- Card 1 -->
-                                    <div class="col-lg-4 col-md-6 mb-4 animated-queue">
+                        <div class="articles_detail"> 
+                            <div id="owl-3-items"
+                                class="works-grid with-title gutter owl-carousel owl-theme owl-dark-dots">
+
+                                <div class="work-item hover-trigger hover-3">
+                                    <div class="work-container">
                                         <div class="card_with_img">
                                             <div class="card_img">
                                                 <img src="img/presses_imgs/artical_img1.jpg" alt="#">
@@ -267,7 +278,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 animated-queue">
+                                </div> <!-- end work-item -->
+
+                                <div class="work-item hover-trigger hover-3">
+                                    <div class="work-container">
                                         <div class="card_with_img">
                                             <div class="card_img">
                                                 <img src="img/presses_imgs/artical_img2.jpg" alt="#">
@@ -277,7 +291,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 animated-queue">
+                                </div> <!-- end work-item -->
+                                <div class="work-item hover-trigger hover-3">
+                                    <div class="work-container">
                                         <div class="card_with_img">
                                             <div class="card_img">
                                                 <img src="img/presses_imgs/artical_img3.jpg" alt="#">
@@ -287,7 +303,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 animated-queue">
+                                </div> <!-- end work-item -->
+                                <div class="work-item hover-trigger hover-3">
+                                    <div class="work-container">
                                         <div class="card_with_img">
                                             <div class="card_img">
                                                 <img src="img/presses_imgs/artical_img4.jpg" alt="#">
@@ -297,7 +315,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 animated-queue">
+                                </div> <!-- end work-item -->
+                                <div class="work-item hover-trigger hover-3">
+                                    <div class="work-container">
                                         <div class="card_with_img">
                                             <div class="card_img">
                                                 <img src="img/presses_imgs/artical_img5.jpg" alt="#">
@@ -307,7 +327,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 animated-queue">
+                                </div> <!-- end work-item -->
+
+                                <div class="work-item hover-trigger hover-3">
+                                    <div class="work-container">
                                         <div class="card_with_img">
                                             <div class="card_img">
                                                 <img src="img/presses_imgs/artical_img6.jpg" alt="#">
@@ -317,7 +340,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 mb-4 animated-queue">
+                                </div>
+                                <div class="work-item hover-trigger hover-3">
+                                    <div class="work-container">
                                         <div class="card_with_img">
                                             <div class="card_img">
                                                 <img src="img/presses_imgs/artical_img7.jpg" alt="#">
@@ -331,6 +356,9 @@
                                 </div>
                             </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </section>
@@ -344,8 +372,7 @@
                             <div class="vip-exp-image">
                                 <!-- <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72"
                                     alt="Industry Experience"> -->
-                                    <img src="img/home_banner_bg2.jpeg"
-                                    alt="Industry Experience">
+                                <img src="img/home_banner_bg2.jpeg" alt="Industry Experience">
                             </div>
                         </div>
 
@@ -353,7 +380,7 @@
                         <div class="col-lg-6">
                             <div class="vip-exp-content">
 
-                                <span class="badge-custom">Global Presence</span>
+                                <!-- <span class="badge-custom">Global Presence</span> -->
 
                                 <h2 class="vip-title">
                                     International Experience & Industry Presence
@@ -393,7 +420,7 @@
                         <div class="col-lg-8">
                             <div class="vip-personal-card text-center">
 
-                                <span class="badge-custom">Personal Background</span>
+                                <!-- <span class="badge-custom">Personal Background</span> -->
 
                                 <h2 class="vip-title">
                                     Athletic Excellence & Personal Achievements
@@ -424,7 +451,7 @@
                     <!-- Heading -->
                     <div class="row d-flex justify-content-center text-center">
                         <div class="col-lg-10">
-                            <span class="badge-custom">Global Portfolio</span>
+                            <!-- <span class="badge-custom">Global Portfolio</span> -->
                             <h2 class="vip-title">Selected International References</h2>
                             <p class="vip-desc">
                                 Over more than five decades, professional work has combined international
@@ -497,10 +524,10 @@
             <section class="section-wrap vip-positioning-section">
                 <div class="container">
                     <div class="row d-flex justify-content-center text-center">
-                        <div class="col-lg-8"> 
+                        <div class="col-lg-8">
                             <div class="vip-positioning-box">
 
-                                <span class="badge-custom">Positioning Today</span>
+                                <!-- <span class="badge-custom">Positioning Today</span> -->
 
                                 <h2 class="vip-title">
                                     Strategic Vision & Future-Oriented Advisory
@@ -589,9 +616,9 @@
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="about.html">About</a></li>
                                     <li><a href="autonomous_retail.html">Autonomous Retail</a></li>
-                                    <li><a href="javascript:void(0)">Beekeeping</a></li>
+                                    <li><a href="beekeeping.html">Beekeeping</a></li>
                                     <li><a href="history.html">History</a></li>
-                                    <li><a href="press.html">Press</a></li>  
+                                    <li><a href="press.html">Press</a></li>
                                 </ul>
                             </div>
 

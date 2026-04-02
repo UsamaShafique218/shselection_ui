@@ -3,6 +3,7 @@
     duration: 1000,   // animation speed
     once: true        // sirf ek baar chale
   });
+  
 
   "use strict"; 
 
