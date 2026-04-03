@@ -10117,7 +10117,7 @@ abbr.required {
 }
 
 .pb-70 {
-  padding-bottom: 70px;
+  padding-bottom: 70px !important;
 }
 
 .pb-80 {
@@ -11561,7 +11561,7 @@ abbr.required {
 
 .logo,
 .logo-dark {
-  max-height: 38px;
+  max-height: 50px;
 }
 
 
@@ -11840,3 +11840,11 @@ abbr.required {
 
 
 .history_content_wrapper .card_with_img{ box-shadow: none; }
+
+
+.history_page_detail .card-custom{ min-height: 145px; height: 100%; }
+
+.history_page_detail .card-custom .section-text{ margin-bottom: 0px; }
+
+.download_btn_wrapper{ padding-top: 20px; }
+ 
