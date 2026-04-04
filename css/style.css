@@ -11980,18 +11980,21 @@ t .retail_text h4 {
 
 .header_icon {
   cursor: pointer;
+  width: 24px; height: 24px;
 }
+.header_icon img{ width: 24px; height: 24px; display: block; }
 
 
 
 
-.header_icon i {
+
+/* .header_icon i {
   color: #424242;
 }
 
 .header_icon i:hover {
   color: #397cfd !important;
-}
+} */
 
 @media (max-width: 992px) {
 
