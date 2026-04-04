@@ -327,9 +327,9 @@
       -------------------------------------------------------*/
 
       $("#owl-3-items").owlCarousel({
-        // autoPlay: 3000,
-        pagination: true,
-        navigation: false,
+        autoPlay: 2000,
+        pagination: false,
+        navigation: true,
         navigationText: ["<i class='icon-Left-2'></i>", "<i class='icon-Right-2'></i>"],
         itemsCustom: [
           [0, 1],
