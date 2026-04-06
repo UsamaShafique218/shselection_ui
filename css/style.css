@@ -352,6 +352,25 @@ video {
   border-radius: 50%;
 }
 
+.scroll-down {
+  animation: scrollFancy 1.5s infinite;
+}
+
+@keyframes scrollFancy {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(10px) scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
 .scroll-down.dark {
   background-color: transparent;
   border: 2px solid #424242;
@@ -12007,3 +12026,12 @@ t .retail_text h4 {
     max-height: 40px;
 }
 }
+
+
+
+.press_banner .scroll-down{ background-color: rgba(0, 0, 0, 0.2) !important; }
+
+.pr-0{ padding-right: 0px !important; }
+
+.big_img_wrapper{ width: 100%; max-width: 784px; height: auto; margin: auto; }
+.big_img_wrapper img{ width: 100%; height: auto; max-width: 100%; display: block;  }
