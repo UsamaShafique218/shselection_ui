@@ -11698,15 +11698,31 @@ abbr.required {
     font-size: 26px;
   }
 }
+ 
 
+.history_content_wrapper .vip-experience-section .row.align-items-center {
+  display: flex;
+  align-items: stretch !important;
+}
+
+.history_content_wrapper .vip-experience-section .col-lg-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.vip-exp-image {
+  flex: 1; /* 🔥 main fix */
+}
 
 .vip-exp-image img {
   width: 100%;
-  border-radius: 15px;
-  transition: transform 0.4s ease;
   height: 100%;
-  min-height: 494px;
+  transition: transform 0.4s ease;
+  object-fit: fill;
+  border-radius: 15px;
 }
+
+ 
 
 .vip-exp-image:hover img {
   transform: scale(1.05);
