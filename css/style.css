@@ -11345,7 +11345,9 @@ abbr.required {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.custome_banner.press_banner::before {
+  display: none;
+}
 
 .custome_banner.history_banner {
   background-image: url(../img/banner_bg.jpg);
@@ -11354,9 +11356,7 @@ abbr.required {
   background-size: cover;
 }
 
-.custome_banner.press_banner::before {
-  display: none;
-}
+
 
 .custome_banner.about_banner {
   background: url(../img/about_banner_img.jpeg);
@@ -12062,4 +12062,15 @@ t .retail_text h4 {
 .can_we_do_detail ul{ display: flex; flex-wrap: wrap; list-style-type: disc; padding-left: 20px; }
 .can_we_do_detail ul li{ width: 100%;   }
 
+
+
+.custome_banner.automonous_retail_banner {
+  background-image: url(../img/autonomous_img1.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.custome_banner.automonous_retail_banner::before {
+  display: none;
+}
  
