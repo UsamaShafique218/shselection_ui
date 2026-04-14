@@ -11359,10 +11359,11 @@ abbr.required {
 
 
 .custome_banner.about_banner {
-  background: url(../img/about_banner_img.jpeg);
+  background: url(../img/about_banner_img2.jpeg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  height: calc(100vh + 310px) !important;
 }
 
 .custome_banner.about_banner::before {
